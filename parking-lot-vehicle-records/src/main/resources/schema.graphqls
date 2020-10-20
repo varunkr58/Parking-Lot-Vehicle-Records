@@ -1,0 +1,9 @@
+type Query {
+  chargesPerHour: [ChargesPerHourDB]
+}
+
+type ChargesPerHourDB {
+    id: Int
+	hours: Int
+	charges: Int
+}
